@@ -22,57 +22,6 @@ body {
 
 
 
-#clock div {
-	display: inline-block;
-}
-
-#clock {
-	padding: 5px;
-	width: 300px;
-	margin: 100px auto;	
-	text-align: center;
-	border: 1px solid black;
-	z-index: -1000;
-}
-
-#seconds {
-	font-size: 70%;
-}
-
-.dots {
-	margin: 0px 2px 0px 2px;
-}
-
-#clock #day {
-	display: block;
-	clear: both;
-	font-size: 60%;	
-	margin-right: 20%;
-}
-
-#ampm {
-	position: relative;
-	bottom: 10px;
-	padding: 5px;
-	vertical-align: top;
-	font-size: 35%;
-}
-
-#ampm div {
-	display: block;
-}
-
-#ampm .inactive {
-	opacity: 0.35;
-}
-
-#ampm .active {
-	opacity: 1.0;
-}
-
-#hours, .dots, #minutes {
-	margin-right: -30px;
-}
 
 #aclock {
 	position: relative;
@@ -87,8 +36,8 @@ body {
 
 #secondhand {
 	position: absolute;
-	top:28px;
-	left: 174px;
+	top:58px;
+	left: 181px;
 	/* Transform Origin */
 	-webkit-transform-origin: 50% 95%;
 	-moz-transform-origin: 50% 95%;
@@ -106,9 +55,11 @@ body {
 }
 
 #minutehand {
-	top:40px;
+	/*top:50px;*/
+	top: 74px;
+	left: 187px;
 }
 
 #hourhand {
-	top:60px;
+	top:90px;
 }

@@ -4,11 +4,6 @@ $(function(){
 
 
 function updateTime() {
-	// Aux variables
-	var hours = $('#hours');
-	var minutes = $('#minutes');
-	var seconds = $('#seconds');
-
 	// Get time from moment.js with specified format
 	var now = moment().format("hhmmssdA");
 	
